@@ -18,7 +18,7 @@ public class ConsoleActions
     {
         Console.WriteLine("\n- Dev: RadzhabovRI");
         Console.WriteLine("- Github: @woundmee");
-        Console.WriteLine("- Version: 2.0\n");
+        Console.WriteLine("- Version: 2.1\n");
         Console.WriteLine("\nКак пользоваться скриптом?");
         Console.WriteLine("Подробнее расписано в readme.md. Команды вкратце ниже.");
         Console.WriteLine("\n- SQL: \"./CheckBackups -s Folder\", где Folder - это каталог с подкаталогами Day, Month и Year");

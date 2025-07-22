@@ -1,7 +1,7 @@
 ﻿// dev: RadzhabovRI
 // github: @woundmee
 // last update: 22.07.2025
-// version: 2.0
+// version: 2.1
 
 using CheckBackups.Services;
 
@@ -33,27 +33,8 @@ class Program
                     case "-i":
                         ConsoleActions.GetAdditionalInfo();
                         break;
-                    // default:
-                    //     Console.WriteLine("Аргументы не заданы или заданы некорректно.");
-                    //     break;
                 }
             }
         }
-
-
-        // ============
-        //     // Database backup
-        // var dbBackups = new CheckDatabaseBackups();
-        // var dbCheck = dbBackups.Check("dbBackupsFolder");
-        // Console.WriteLine(dbCheck);
-        //
-        //     // OS backup
-        // var osBackup = new CheckOsBackups();
-        // var osCheck = osBackup.Check("osBackupsFolder", "");
-        // Console.WriteLine(osCheck);
-        //
-        //     Console.WriteLine();
-        //     
-        //     Helper.GetHelper();
     }
 }

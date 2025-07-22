@@ -36,8 +36,6 @@ public class CheckOsBackups
         else
         {
             var readedFile = FileOperations.ReadFromFile(saveToFile);
-            // string status = readedFile.Split(':')[0];
-            // string filename = readedFile.Split(':')[1];
             return readedFile;
         }
 
